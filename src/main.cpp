@@ -152,8 +152,6 @@ int main(int argc, const char * argv[]) {
     afficherUnDomino(d);
     creerJeu(j);
     afficherUnJeu(j);
-    
-   
         valGauche(d);
         valDroite(d);
         retournerUnDomino(d);
