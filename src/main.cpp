@@ -146,5 +146,8 @@ int pointsJeuRec(const Jeu &j, int nb) //nb indice du nombre de dominos dans jeu
 
 int main(int argc, const char * argv[]) {
     
+    Domino d;
+    creerUnDomino(d);
+    
     return 0;
 }
