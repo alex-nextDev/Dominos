@@ -153,6 +153,15 @@ int main(int argc, const char * argv[]) {
     creerJeu(j);
     afficherUnJeu(j);
     
+   
+        valGauche(d);
+        valDroite(d);
+        retournerUnDomino(d);
+        estDouble(d);
+        points(d);
+        pointsJeu(j);
+        pointsJeuRec(j, 4);
+    
     
     return 0;
 }
