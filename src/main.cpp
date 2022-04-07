@@ -150,6 +150,9 @@ int main(int argc, const char * argv[]) {
     Jeu j;
     creerUnDomino(d);
     afficherUnDomino(d);
+    creerJeu(j);
+    afficherUnJeu(j);
+    
     
     return 0;
 }
