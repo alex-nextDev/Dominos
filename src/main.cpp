@@ -77,23 +77,18 @@ void creerJeu(Jeu &j)
  
  */
 
-
-
 void afficherUnJeu(const Jeu &j)
 {
     for(int i = 0; j.effectif; i++)
     {
         afficherUnDomino(j.j[i]);
     }
-    
-    
 }
 
 
 int valGauche(const Domino &d)
 {
-    return  d.valG;
-    
+    return  d.valG;  
 }
 
 void valDroite(const Domino &d, int &droite)
@@ -113,7 +108,6 @@ Domino retournerUnDomino(const Domino &d)
 bool estDouble(const Domino &d)
 {
     return d.valG == d.valD;
-    
 }
 
 
@@ -147,12 +141,7 @@ int pointsJeuRec(const Jeu &j, int nb) //nb indice du nombre de dominos dans jeu
     {
         return points(j.j[nb - 1]) + pointsJeuRec(j, nb-1);
     }
-    
-    
 }
-
-
-
 
 
 int main(int argc, const char * argv[]) {
