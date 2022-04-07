@@ -30,19 +30,15 @@ Domino creerUnDomino(int g, int d)
     d1.valG = g;
     d1.valD = d;
     return d1;
-    
-
 }
 
 void afficherUnDomino(const Domino &d)
 {
-    cout<<"("<<d.valG<<":"<<d.valD<<")"<<endl;
-    
+    cout<<"("<<d.valG<<":"<<d.valD<<")"<<endl; 
 }
 
-void creerjeu(Jeu &j)
-{
-    
+void creerJeu(Jeu &j)
+{ 
     int k = 0; //indice du tableau
     
     for(int g = 0; g <= 6; g++)
