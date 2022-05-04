@@ -73,8 +73,6 @@ void creerJeu(Jeu &j)
  .  .
  .  .
  .  .
- 
- 
  */
 
 void afficherUnJeu(const Jeu &j)
